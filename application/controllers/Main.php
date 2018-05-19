@@ -6,7 +6,10 @@ class Main extends CI_Controller
     public function index()
     {
         $this->load->model("main_model");
-        echo $this->main_model->test_main();
+        $data["model_text"] = $this->main_model->test_main();
+        $data["title"] = "controller text";
+        $data["test1"] = "another controller text";
+        $this->load->view("main_view", $data);
     }
 
     public function test1(){
