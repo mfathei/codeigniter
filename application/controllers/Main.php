@@ -5,8 +5,8 @@ class Main extends CI_Controller
 {
     public function index()
     {
-        echo 'test index function ';
-        $this->test1();
+        $this->load->model("main_model");
+        echo $this->main_model->test_main();
     }
 
     public function test1(){
