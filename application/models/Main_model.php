@@ -12,4 +12,13 @@ class Main_model extends CI_Model
     {
         $this->db->insert("tbl_user", $data);
     }
+
+    public function fetch_data(){
+        // $query = $this->db->get("tbl_user");
+        // $query = $this->db->query("select * from tbl_user order by id desc");
+        $this->db->select("*");
+        $this->db->from("tbl_user");
+        $query = $this->db->get();
+        return $query;
+    }
 }

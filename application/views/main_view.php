@@ -30,7 +30,31 @@
                 <input class="btn btn-info" type="submit" value="Insert" name="insert">
             </div>
         </form>
+        <br><br><br>
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <tr>
+                    <th>ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+                <?php
+                    if($fetch_data->num_rows() > 0){
+                        foreach($fetch_data->result() as $row){
+                        ?>
+                            <tr>
+                                <td><?php echo $row->id ?></td>
+                                <td><?php echo $row->first_name ?></td>
+                                <td><?php echo $row->last_name ?></td>
+                            </tr>
+                        <?php
+                        }
+                    } else {
+                        echo '<tr><td colspan="3">No Data Found</td></tr>';
+                    }
+                ?>
+            </table>
+        </div>
     </div>
-
 </body>
 </html>
