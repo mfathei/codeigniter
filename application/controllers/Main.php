@@ -69,4 +69,52 @@ class Main extends CI_Controller
     {
         $this->index();
     }
+
+    public function login()
+    {
+        $data["title"] = "Simple login in CodeIgniter and session";
+        $this->load->view("login", $data);
+    }
+
+    public function login_validation()
+    {
+        $this->load->library("form_validation");
+        $this->form_validation->set_rules("username", "Username", "required");
+        $this->form_validation->set_rules("password", "Password", "required");
+
+        if ($this->form_validation->run()) {
+            $username = $this->input->post("username");
+            $password = $this->input->post("password");
+            $this->load->model("main_model");
+            $query = $this->main_model->can_login($username, $password);
+            if ($query->num_rows() > 0) {
+                $session_data = array(
+                    "username" => $username,
+                );
+                $this->session->set_userdata($session_data);
+                redirect(base_url() . "main/enter");
+            } else {
+                $this->session->set_flashdata("error", "Invalid username and/or password");
+                redirect(base_url() . "main/login");
+            }
+        } else {
+            $this->login();
+        }
+    }
+
+    public function enter()
+    {
+        if ($this->session->userdata("username") !== '') {
+            echo '<h3>Welcome - ' . $this->session->userdata("username") . '</h3>';
+            echo '<a href="' . base_url() . 'main/logout">Logout</a>';
+        } else {
+            redirect(base_url() . "main/login");
+        }
+    }
+
+    public function logout()
+    {
+        $this->session->unset_userdata("username");
+        redirect(base_url() . "main/login");
+    }
 }

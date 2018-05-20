@@ -35,6 +35,7 @@
                             <div class="form-group">
                                 <input type="hidden" name="hidden_id" value="<?php echo $row->id; ?>">
                                 <input class="btn btn-info" type="submit" value="Update" name="update">
+                                <span class="text-danger"><?php echo $this->session->flashdata("error")?></span>
                             </div>
                         </form>
                     <?php

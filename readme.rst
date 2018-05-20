@@ -72,3 +72,8 @@ contributors to the CodeIgniter project and you, the CodeIgniter user.
 Run app
 ========
 `php -S codeigniter.loc:8080`
+
+***************
+Encryption key generator
+***************
+https://randomkeygen.com/
