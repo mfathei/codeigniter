@@ -171,4 +171,24 @@ class Main extends CI_Controller
 
         return $output;
     }
+
+    public function email_availability()
+    {
+        $data["title"] = "Check email availability using ajax";
+        $this->load->view("email_availability", $data);
+    }
+
+    public function check_email_availability()
+    {
+        if (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
+            echo '<label class="text-danger"><span class="glyphicon glyphicon-remove"></span> Invalid Email</label>';
+        } else {
+            $this->load->model("main_model");
+            if($this->main_model->is_email_registered($_POST["email"])){
+                echo '<label class="text-danger"><span class="glyphicon glyphicon-remove"></span> Email Already Registered</label>';
+            } else {
+                echo '<label class="text-success"><span class="glyphicon glyphicon-ok"></span> Valid Email</label>';
+            }
+        }
+    }
 }

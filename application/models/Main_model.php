@@ -29,34 +29,45 @@ class Main_model extends CI_Model
         $this->db->delete("tbl_user");
     }
 
-    public function update_data($data, $id){
+    public function update_data($data, $id)
+    {
         $this->db->where("id", $id);
         $this->db->update("tbl_user", $data);
     }
 
-    public function fetch_single_data($id){
+    public function fetch_single_data($id)
+    {
         $this->db->where("id", $id);
         $query = $this->db->get("tbl_user");
         return $query;
     }
 
-    public function can_login($username, $password){
+    public function can_login($username, $password)
+    {
         $this->db->where("username", $username);
         $this->db->where("password", $password);
         $query = $this->db->get("users");
         return $query;
     }
 
-    public function insert_image($data){
+    public function insert_image($data)
+    {
         $this->db->insert("tbl_images", $data);
     }
 
-    public function fetch_images(){
+    public function fetch_images()
+    {
         $this->db->select("name");
         $this->db->from("tbl_images");
         $this->db->order_by("id", "desc");
         $query = $this->db->get();
         return $query;
+    }
+
+    public function is_email_registered($email){
+        $this->db->where("email", $email);
+        $query = $this->db->get("register");
+        return ($query->num_rows() > 0);
     }
 
 }
