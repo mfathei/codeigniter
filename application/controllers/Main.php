@@ -121,6 +121,7 @@ class Main extends CI_Controller
     public function image_upload()
     {
         $data["title"] = "Upload image using AJAX in CodeIgniter";
+        $data["image_data"] = $this->get_images_div();
         $this->load->view('image_upload', $data);
     }
 
@@ -130,12 +131,44 @@ class Main extends CI_Controller
             $config["upload_path"]   = "./upload";
             $config["allowed_types"] = "jpg|jpeg|png|gif";
             $this->load->library("upload", $config);
-            if(!$this->upload->do_upload("image_file")){
+            if (!$this->upload->do_upload("image_file")) {
                 echo $this->upload->display_errors();
             } else {
                 $data = $this->upload->data();
-                echo '<img src="'. base_url() .'upload/'. $data["file_name"] .'" />';
+
+                $config["image_library"]  = "gd2";
+                $config["source_image"]   = "./upload/" . $data["file_name"];
+                $config["create_thumb"]   = false;
+                $config["maintain_ratio"] = false;
+                $config["quality"]        = "60%";
+                $config["width"]          = "200";
+                $config["height"]         = "200";
+                $config["new_image"]      = "./upload/" . $data["file_name"];
+                $this->load->library("image_lib", $config);
+                $this->image_lib->resize();
+
+                $this->load->model("main_model");
+                $data = array(
+                    "name" => $data["file_name"],
+                );
+                $this->main_model->insert_image($data);
+
+                echo $this->get_images_div();
+                // echo '<img src="' . base_url() . 'upload/' . $data["file_name"] . '" />';
             }
         }
+    }
+
+    private function get_images_div(){
+        $output = '';
+        $this->load->model("main_model");
+        $query = $this->main_model->fetch_images();
+        foreach($query->result() as $row){
+            $output .= '<div class="col-md-3">
+                <img src="'. base_url() .'upload/'. $row->name .'" class="img-responsive img-thumbnail"/>
+            </div>';
+        }
+
+        return $output;
     }
 }

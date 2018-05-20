@@ -47,4 +47,16 @@ class Main_model extends CI_Model
         return $query;
     }
 
+    public function insert_image($data){
+        $this->db->insert("tbl_images", $data);
+    }
+
+    public function fetch_images(){
+        $this->db->select("name");
+        $this->db->from("tbl_images");
+        $this->db->order_by("id", "desc");
+        $query = $this->db->get();
+        return $query;
+    }
+
 }

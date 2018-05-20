@@ -15,7 +15,7 @@
         </form>
         <br><br>
         <div id="uploaded_image">
-            
+            <?php echo $image_data; ?>
         </div>
     </div>
     <script src="/js/jquery-3.1.1.min.js"></script>
