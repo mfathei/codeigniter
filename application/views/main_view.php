@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Insert Data using CodeIgniter</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
 </head>
 <body>
 
@@ -37,6 +37,7 @@
                     <th>ID</th>
                     <th>First Name</th>
                     <th>Last Name</th>
+                    <th>Delete</th>
                 </tr>
                 <?php
                     if($fetch_data->num_rows() > 0){
@@ -46,15 +47,31 @@
                                 <td><?php echo $row->id ?></td>
                                 <td><?php echo $row->first_name ?></td>
                                 <td><?php echo $row->last_name ?></td>
+                                <td><a href="#" class="delete_data" id="<?php echo $row->id; ?>">Delete</a></td>
                             </tr>
                         <?php
                         }
                     } else {
-                        echo '<tr><td colspan="3">No Data Found</td></tr>';
+                        echo '<tr><td colspan="4">No Data Found</td></tr>';
                     }
                 ?>
             </table>
         </div>
     </div>
+
+    <script src="/js/jquery-3.1.1.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".delete_data").click(function(event){
+                var id = $(this).attr("id");
+                if(confirm("Are you sure you want to delete this item?")){
+                    window.location = "<?php echo base_url()?>main/delete_data/" + id;
+                } else{
+                    return false;
+                }
+            });
+        });
+    </script>
 </body>
 </html>
