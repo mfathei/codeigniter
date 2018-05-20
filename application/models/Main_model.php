@@ -28,4 +28,16 @@ class Main_model extends CI_Model
         $this->db->where("id", $id);
         $this->db->delete("tbl_user");
     }
+
+    public function update_data($data, $id){
+        $this->db->where("id", $id);
+        $this->db->update("tbl_user", $data);
+    }
+
+    public function fetch_single_data($id){
+        $this->db->where("id", $id);
+        $query = $this->db->get("tbl_user");
+        return $query;
+    }
+
 }

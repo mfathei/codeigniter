@@ -10,6 +10,39 @@
     <div class="container">
         <br><br><br>
         <h3 align="center">Insert Data using CodeIgniter</h3>
+        <?php
+
+
+            if(isset($single_data)){
+                foreach($single_data->result() as $row){
+                ?>
+                        <form method="post" action="<?php echo base_url() ?>main/form_validation">
+                            <?php 
+                                if($this->uri->segment(2) == 'inserted'){
+                                    echo '<p class="text-success">Data Inserted</p>';
+                                }
+                            ?>
+                            <div class="form-group">
+                                <label for="first_name">Enter First Name</label>
+                                <input class="form-control" type="text" name="first_name" value="<?php echo $row->first_name; ?>" id="first_name">
+                                <span class="text-danger"><?php echo form_error("first_name")?></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="last_name">Enter Last Name</label>
+                                <input class="form-control" type="text" name="last_name" value="<?php echo $row->last_name; ?>" id="last_name">
+                                <span class="text-danger"><?php echo form_error("last_name")?></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="hidden" name="hidden_id" value="<?php echo $row->id; ?>">
+                                <input class="btn btn-info" type="submit" value="Update" name="update">
+                            </div>
+                        </form>
+                    <?php
+                }
+            } else {
+
+        ?>
+        
         <form method="post" action="<?php echo base_url() ?>main/form_validation">
             <?php 
                 if($this->uri->segment(2) == 'inserted'){
@@ -30,6 +63,7 @@
                 <input class="btn btn-info" type="submit" value="Insert" name="insert">
             </div>
         </form>
+        <?php } ?>
         <br><br><br>
         <div class="table-responsive">
             <table class="table table-bordered">
@@ -38,6 +72,7 @@
                     <th>First Name</th>
                     <th>Last Name</th>
                     <th>Delete</th>
+                    <th>Update</th>
                 </tr>
                 <?php
                     if($fetch_data->num_rows() > 0){
@@ -48,11 +83,12 @@
                                 <td><?php echo $row->first_name ?></td>
                                 <td><?php echo $row->last_name ?></td>
                                 <td><a href="#" class="delete_data" id="<?php echo $row->id; ?>">Delete</a></td>
+                                <td><a href="<?php echo base_url() . 'main/update_data/' . $row->id;?>">Edit</a></td>
                             </tr>
                         <?php
                         }
                     } else {
-                        echo '<tr><td colspan="4">No Data Found</td></tr>';
+                        echo '<tr><td colspan="5">No Data Found</td></tr>';
                     }
                 ?>
             </table>
