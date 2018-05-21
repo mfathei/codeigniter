@@ -51,4 +51,17 @@ class Crud_model extends CI_Model
     {
         $this->db->insert($this->table, $data);
     }
+
+    public function fetch_single_user($user_id)
+    {
+        $this->db->where("id", $user_id);
+        $query = $this->db->get($this->table);
+        return $query->result();
+    }
+
+    public function update_crud($user_id, $data)
+    {
+        $this->db->where("id", $user_id);
+        $this->db->update($this->table, $data);
+    }
 }

@@ -96,6 +96,26 @@
                     alert("Both Fields are Required");
                 }
             });
+
+            $(document).on("click", ".update", function(event){
+                var user_id = $(this).attr("id");
+                $.ajax({
+                    url: "<?php echo base_url() . 'crud/fetch_single_user'; ?>",
+                    method: "POST",
+                    data: {user_id: user_id},
+                    dataType: "json",
+                    success: function(data){
+                        $("#userModal").modal("show");
+                        $("#first_name").val(data.first_name);
+                        $("#last_name").val(data.last_name);
+                        $(".modal-title").text("Edit User");
+                        $("#user_id").val(user_id);
+                        $(".user_uploaded_image").html(data.user_image);
+                        $("#action").val("Edit");
+                        $("#buttn").val("Edit");
+                    }
+                });
+            });
         });
     </script>
 </body>
@@ -118,10 +138,12 @@
                     <br>
                     <label for="user_image">Select User Image</label>
                     <input type="file" id="user_image" name="user_image">
+                    <span class="user_uploaded_image"></span>
                 </div>
                 <div class="modal-footer">
+                    <input type="hidden" name="user_id" id="user_id">
                     <input type="hidden" id="action" name="action" value="Add">
-                    <input type="submit" value="Add" class="btn btn-success">
+                    <input type="submit" id="buttn" value="Add" class="btn btn-success">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                 </div>
             </div>
