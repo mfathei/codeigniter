@@ -1,0 +1,6 @@
+when using nginx we should use owner of Cache and upload to apache user
+
+[mahdy@192 Cache]$ sudo chmod 777 -R .
+[mahdy@192 Cache]$ sudo chown -R apache .
+[mahdy@192 upload]$ sudo chmod 777 -R .
+[mahdy@192 upload]$ sudo chown -R apache .

@@ -51,6 +51,13 @@ class Crud extends CI_Controller
         echo json_encode($output);
     }
 
+    public function delete_single_user()
+    {
+        $this->load->model("crud_model");
+        $this->crud_model->delete_single_user($_POST["user_id"]);
+        echo "Data Deleted";
+    }
+
     public function user_action()
     {
         if ($_POST["action"] == "Add") {
@@ -90,7 +97,7 @@ class Crud extends CI_Controller
         if (isset($_FILES["user_image"])) {
             $extension   = explode(".", $_FILES["user_image"]["name"]);
             $new_name    = rand() . "." . $extension[1];
-            $destination = "./upload/" . $new_name;
+            $destination = __DIR__ ."/../../upload/" . $new_name;
             move_uploaded_file($_FILES["user_image"]["tmp_name"], $destination);
             return $new_name;
         }

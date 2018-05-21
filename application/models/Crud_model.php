@@ -33,6 +33,12 @@ class Crud_model extends CI_Model
         return $query->result();
     }
 
+    public function delete_single_user($user_id)
+    {
+        $this->db->where("id", $user_id);
+        $this->db->delete($this->table);
+    }
+
     public function get_filtered_data()
     {
         $this->make_query();

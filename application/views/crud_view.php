@@ -116,6 +116,22 @@
                     }
                 });
             });
+
+            $(document).on("click", ".delete", function(event){
+                var user_id = $(this).attr("id");
+                if(confirm("Are you sure you want to delete this?")){
+                    $.ajax({
+                        url: "<?php echo base_url() . 'crud/delete_single_user'; ?>",
+                        method: "POST",
+                        data: {user_id: user_id},
+                        success: function(data){
+                            dataTable.ajax.reload();
+                        }
+                    });
+                } else {
+                    return false;
+                }
+            });
         });
     </script>
 </body>
