@@ -33,15 +33,22 @@ class Crud_model extends CI_Model
         return $query->result();
     }
 
-    public function get_filtered_data(){
+    public function get_filtered_data()
+    {
         $this->make_query();
         $query = $this->db->get();
         return $query->num_rows();
     }
 
-    public function get_all_data(){
+    public function get_all_data()
+    {
         $this->db->select("*");
         $this->db->from($this->table);
         return $this->db->count_all_results();
+    }
+
+    public function insert_crud($data)
+    {
+        $this->db->insert($this->table, $data);
     }
 }

@@ -33,4 +33,28 @@ class Crud extends CI_Controller
 
         echo json_encode($output);
     }
+
+    public function user_action(){
+        if($_POST["action"] == "Add"){
+            $insert_data = array(
+                "first_name" => $this->input->post("first_name"),
+                "last_name" => $this->input->post("last_name"),
+                "image" => $this->upload_image()
+            );
+
+            $this->load->model("crud_model");
+            $this->crud_model->insert_crud($insert_data);
+            echo "Data Inserted";
+        }
+    }
+
+    public function upload_image(){
+        if(isset($_FILES["user_image"])){
+            $extension = explode(".", $_FILES["user_image"]["name"]);
+            $new_name = rand() . "." . $extension[1];
+            $destination = "./upload/" . $new_name;
+            move_uploaded_file($_FILES["user_image"]["tmp_name"], $destination);
+            return $new_name;
+        }
+    }
 }
