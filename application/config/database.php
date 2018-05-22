@@ -74,7 +74,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'      => 'mysql:host=localhost;dbname=codeigniter_db;char_set=utf8&dbcollat=utf8_unicode_ci',
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => 'root',

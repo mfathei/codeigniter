@@ -2,9 +2,9 @@
 
 class Crud_model extends CI_Model
 {
-    public $table          = "emp";
-    public $select_columns = ["id", "first_name", "last_name", "image"];
-    public $order_column   = [null, "first_name", "last_name", null, null];
+    private $table          = "emp";
+    private $select_columns = ["id", "first_name", "last_name", "image"];
+    private $order_column   = [null, "first_name", "last_name", null, null];
 
     public function make_query()
     {

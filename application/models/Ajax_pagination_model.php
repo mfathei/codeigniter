@@ -3,7 +3,7 @@
 class Ajax_pagination_model extends CI_Model
 {
 
-    var $table = "city";
+    private $table = "city";
 
     public function count_all()
     {
