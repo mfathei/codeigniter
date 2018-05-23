@@ -7,6 +7,7 @@ class Htmltopdf extends CI_Controller
     {
         parent::__construct();
         $this->load->model("htmltopdf_model");
+
         $this->load->library("pdf");
     }
 
@@ -16,40 +17,43 @@ class Htmltopdf extends CI_Controller
         $this->load->view("htmltopdf", $data);
     }
 
-    public function details(){
-        if($this->uri->segment(3)){
-            $id = $this->uri->segment(3);
+    public function details()
+    {
+        if ($this->uri->segment(3)) {
+            $id                       = $this->uri->segment(3);
             $data["customer_details"] = $this->get_customer_details($id);
             $this->load->view("htmltopdf", $data);
         }
     }
 
-    public function pdfdetails(){
-        if($this->uri->segment(3)){
-            $id = $this->uri->segment(3);
+    public function pdfdetails()
+    {
+        if ($this->uri->segment(3)) {
+            $id           = $this->uri->segment(3);
             $html_content = '<h3 align="center">Convert HTML to pdf in CodeIgniter using DOMPdf</h3>';
-            $html_content .= $this->get_customer_details($id);
+            $html_content .= $this->get_customer_details_pdf($id);
             $this->pdf->loadHTML($html_content);
             $this->pdf->render();
-            $this->pdf->stream('"'.$id.'.pdf"', array("Attachment" => 0));
+            $this->pdf->stream('"' . $id . '.pdf"', array("Attachment" => 0));
         }
     }
 
-    private function get_customer_details($id){
-        $data = $this->htmltopdf_model->fetch_single($id);
+    private function get_customer_details($id)
+    {
+        $data   = $this->htmltopdf_model->fetch_single($id);
         $output = '
-        <table width="100%" cellspacing="5" cellpadding="50">
+        <table width="100%" cellspacing="5" cellpadding="5">
         ';
 
         foreach ($data->result() as $row) {
             $output .= '
             <tr>
-                <td width="25%"><img src="'.base_url().'upload/'. $row->image .'" class="img-responsive img-thumbnail"/></td>
+                <td width="25%"><img src="/upload/' . $row->image . '" class="img-responsive img-thumbnail"/></td>
                 <td width="2%"></td>
                 <td width="73%">
-                    <p><b>ID: </b>'.$row->id.'</p>
-                    <p><b>First Name: </b>'.$row->first_name.'</p>
-                    <p><b>Last Name: </b>'.$row->last_name.'</p>
+                    <p><b>ID: </b>' . $row->id . '</p>
+                    <p><b>First Name: </b>' . $row->first_name . '</p>
+                    <p><b>Last Name: </b>' . $row->last_name . '</p>
                 </td>
             </tr>
             ';
@@ -57,7 +61,38 @@ class Htmltopdf extends CI_Controller
 
         $output .= '
         <tr>
-            <td colspan="3" align="center"><a href="'.base_url().'htmltopdf" class="btn btn-primary">Back</a></td>
+            <td colspan="3" align="center"><a href="' . base_url() . 'htmltopdf" class="btn btn-primary">Back</a></td>
+        </tr>
+        </table>
+        ';
+
+        return $output;
+    }
+
+    private function get_customer_details_pdf($id)
+    {
+        $data   = $this->htmltopdf_model->fetch_single($id);
+        $output = '
+        <table width="100%" cellspacing="5" cellpadding="50">
+        ';
+
+        foreach ($data->result() as $row) {
+            $output .= '
+            <tr>
+                <td width="25%"><img width="276" height="155" src="' . __DIR__ . '/../../upload/' . $row->image . '" class="img-responsive img-thumbnail"/></td>
+                <td width="2%"></td>
+                <td width="73%">
+                    <p><b>ID: </b>' . $row->id . '</p>
+                    <p><b>First Name: </b>' . $row->first_name . '</p>
+                    <p><b>Last Name: </b>' . $row->last_name . '</p>
+                </td>
+            </tr>
+            ';
+        }
+
+        $output .= '
+        <tr>
+            <td colspan="3" align="center"><a href="' . base_url() . 'htmltopdf" class="btn btn-primary">Back</a></td>
         </tr>
         </table>
         ';
