@@ -34,7 +34,7 @@ class Htmltopdf extends CI_Controller
             $html_content .= $this->get_customer_details_pdf($id);
             $this->pdf->loadHTML($html_content);
             $this->pdf->render();
-            $this->pdf->stream('"' . $id . '.pdf"', array("Attachment" => 0));
+            $this->pdf->stream($id . '.pdf', array("Attachment" => 0));
         }
     }
 
