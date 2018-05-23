@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="4" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">id</Data></Cell>
+			<Cell><Data ss:Type="String">country</Data></Cell>
+			<Cell><Data ss:Type="String">province</Data></Cell>
+			<Cell><Data ss:Type="String">city</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Bishkek</Data></Cell>
+			<Cell><Data ss:Type="String">Bishkek</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Bishkek</Data></Cell>
+			<Cell><Data ss:Type="String">Kolmo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">3</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Saru</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Kyzyl-Suu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Dobo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Chirak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Tamga</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Barskoon</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">9</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Darkhan</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Jenish</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">11</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Chon-Jargylchak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">12</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Tosor</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">13</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Orgochor</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">14</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Tilekmat</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">15</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">16</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Terek</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">17</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Djene-Dobo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">18</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Jalgyz-Oruk</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">19</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Jon-Bulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">20</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Lipenka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">21</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Chon-Kyzyl-Suu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">22</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Kichi-Jargylchak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">23</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Kabak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">24</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Svetlaya Poljana</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">25</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Boz-Beshik</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">26</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Munduz</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">27</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Kochkor</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">28</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Konkino</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">29</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Irdyk</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">30</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Bogatyrovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">31</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Ichke-Bulun</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">32</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Alkym</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">33</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Kavak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">34</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">An-Uston</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">35</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Uston</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">36</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Kara-Say</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">37</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Yrdyk</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">38</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djety-Oguz</Data></Cell>
+			<Cell><Data ss:Type="String">Baltabay</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">39</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Balykchy</Data></Cell>
+			<Cell><Data ss:Type="String">Balykchy</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">40</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Say</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">41</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Kadji-Say</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">42</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Kara-Koo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">43</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Toguz-Bulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">44</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Bokonbaevo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">45</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Kyzyl-Tuu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">46</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Tort-Kul</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">47</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Eshperov</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">48</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Orto-Tokoy</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">49</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Ottuk</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">50</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Kol-Tor</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">51</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Jer-Yui</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">52</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Kok-Say</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">53</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Kara-Talaa</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">54</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Temir-Kanat</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">55</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Don-Talaa</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">56</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Konur-Olon</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">57</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Olen</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">58</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Shor-Bulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">59</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Shorbulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">60</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">61</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ton</Data></Cell>
+			<Cell><Data ss:Type="String">Ala-Bash</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">62</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Ata</Data></Cell>
+			<Cell><Data ss:Type="String">Ivanovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">63</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Ata</Data></Cell>
+			<Cell><Data ss:Type="String">Novo-Pokrovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">64</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Ata</Data></Cell>
+			<Cell><Data ss:Type="String">Orto-Say</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">65</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Ata</Data></Cell>
+			<Cell><Data ss:Type="String">Luksemburg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">66</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Ata</Data></Cell>
+			<Cell><Data ss:Type="String">Vorontsovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">67</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Ata</Data></Cell>
+			<Cell><Data ss:Type="String">Krasnaya Rechka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">68</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Ata</Data></Cell>
+			<Cell><Data ss:Type="String">Djailma</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">69</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Temir</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">70</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Kosh-Kol</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">71</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Sary-Kamysh</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">72</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Cholpon-Ata</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">73</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Baktuu-Dolonotu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">74</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Chon-Sary-Oi</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">75</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Semenovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">76</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Grigorjevka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">77</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Kara-Oi</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">78</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Tamchi</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">79</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Bozteri</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">80</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Kojoyar</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">81</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Toru-Aigyr</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">82</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Korumdy</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">83</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+			<Cell><Data ss:Type="String">Chyrpykty</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">84</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Chui</Data></Cell>
+			<Cell><Data ss:Type="String">Alga</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">85</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Chui</Data></Cell>
+			<Cell><Data ss:Type="String">Chuy</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">86</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Karakol</Data></Cell>
+			<Cell><Data ss:Type="String">Karakol</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">87</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Karakol</Data></Cell>
+			<Cell><Data ss:Type="String">Karakol-Pristan</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">88</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tokmok</Data></Cell>
+			<Cell><Data ss:Type="String">Tokmok</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">89</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kant</Data></Cell>
+			<Cell><Data ss:Type="String">Kant</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">90</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kant</Data></Cell>
+			<Cell><Data ss:Type="String">Karagay-Bulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">91</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Novo-Pavlovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">92</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Selektsionnoye</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">93</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">94</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Voenno-Antonovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">95</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Shopokov</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">96</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Belovodskoye</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">97</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Manas</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">98</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Nijnyi Orok</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">99</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Sokuluk</Data></Cell>
+			<Cell><Data ss:Type="String">Pervomay</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">100</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Bulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">101</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Otuz-Uul</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">102</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">103</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Novo-Voznesenovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">104</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Teplokluchenka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">105</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Chelpek</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">106</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Jany-Aryk</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">107</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Djergalan</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">108</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Tenke</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">109</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Jol-Kolot</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">110</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Sarykamysh</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">111</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Teguzchil</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">112</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Tash-Kiya</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">113</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Kerege-Tash</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">114</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Otradnoye</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">115</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Burmasuu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">116</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Kairma-Aryk</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">117</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Kurbu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">118</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Sovetskoe</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">119</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Uch-Kainar</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">120</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Suu</Data></Cell>
+			<Cell><Data ss:Type="String">Cholpon</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">121</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kemin</Data></Cell>
+			<Cell><Data ss:Type="String">Orlovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">122</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kemin</Data></Cell>
+			<Cell><Data ss:Type="String">Beisheke</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">123</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kemin</Data></Cell>
+			<Cell><Data ss:Type="String">Kemin</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">124</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kemin</Data></Cell>
+			<Cell><Data ss:Type="String">Shabdan</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">125</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kemin</Data></Cell>
+			<Cell><Data ss:Type="String">Jany-Jol</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">126</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kemin</Data></Cell>
+			<Cell><Data ss:Type="String">Chym-Korgon</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">127</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Mikhailovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">128</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Oi-Bulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">129</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Ananjevo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">130</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Aral</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">131</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Kurmenty</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">132</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">133</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Toktoyan</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">134</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Taldy-Suu</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">135</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Kuturga</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">136</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Issyk-Kul</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">137</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Tyup</Data></Cell>
+			<Cell><Data ss:Type="String">Mayak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">138</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">139</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Lebedinovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">140</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Kara-Jigach</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">141</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Sadovoye</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">142</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Tash-Dobo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">143</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Prigorodnoye</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">144</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Kok-Jar</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">145</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Baitik</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">146</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Vostok</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">147</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Leninskoe</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">148</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Alamedin</Data></Cell>
+			<Cell><Data ss:Type="String">Dachniy</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">149</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kara-Balta</Data></Cell>
+			<Cell><Data ss:Type="String">Kara-Balta</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">150</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Toktogul</Data></Cell>
+			<Cell><Data ss:Type="String">Tash-Kumyr</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">151</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Panfilov</Data></Cell>
+			<Cell><Data ss:Type="String">Voznesenovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">152</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Panfilov</Data></Cell>
+			<Cell><Data ss:Type="String">Maevka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">153</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Panfilov</Data></Cell>
+			<Cell><Data ss:Type="String">Panfilovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">154</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Djumgal</Data></Cell>
+			<Cell><Data ss:Type="String">Kazarman</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">155</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Naryn</Data></Cell>
+			<Cell><Data ss:Type="String">Jan-Bulak</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">156</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Naryn</Data></Cell>
+			<Cell><Data ss:Type="String">Naryn</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">157</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Talas</Data></Cell>
+			<Cell><Data ss:Type="String">Arashan</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">158</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Talas</Data></Cell>
+			<Cell><Data ss:Type="String">Aral (Talas)</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">159</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Talas</Data></Cell>
+			<Cell><Data ss:Type="String">Kochoy</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">160</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Moskva</Data></Cell>
+			<Cell><Data ss:Type="String">Ak-Bashat</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">161</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Moskva</Data></Cell>
+			<Cell><Data ss:Type="String">Kosh-Tubo</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">162</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Moskva</Data></Cell>
+			<Cell><Data ss:Type="String">Aleksandrovka</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">163</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Osh</Data></Cell>
+			<Cell><Data ss:Type="String">Kyzyl-Kiya</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">164</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">At-Bashi</Data></Cell>
+			<Cell><Data ss:Type="String">At-Bashi</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">165</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Kochkor</Data></Cell>
+			<Cell><Data ss:Type="String">Kochkor</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">166</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Naukat</Data></Cell>
+			<Cell><Data ss:Type="String">Naiman</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">167</Data></Cell>
+			<Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+			<Cell><Data ss:Type="String">Naukat</Data></Cell>
+			<Cell><Data ss:Type="String">On-Eki-Moinok</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>
